@@ -266,8 +266,7 @@ Knuth, Donald E22. 1984. <span>“Literate Progr13amming.”</span> <em>The Comp
     
     for (let i = 0; i < columns; i++) {
       for (let j = 0; j < rows; j++) {
-        // Density 0.7 means 30% alive (flipped logic), or keep your preferred > 0.8
-        grid[i][j] = Math.random() > 0.8 ? 1 : 0; 
+        grid[i][j] = Math.random() > 0.7 ? 1 : 0; 
       }
     }
   }
