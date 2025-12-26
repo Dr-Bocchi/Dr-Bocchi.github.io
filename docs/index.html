@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my Lab – Dario Bocchi</title>
+<title>Dario Bocchi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/perceptron.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(images/banner.jpg);
+        background-image: url(images/banner.jpeg);
 background-size: cover;
       }
 </style>
@@ -132,8 +133,8 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome to my Lab</h1>
-            <p class="subtitle lead">PhD Candidate in [Your Field] at [Your University]</p>
+      <h1 class="title">Dario Bocchi</h1>
+            <p class="subtitle lead">PhD Student in Physics at Sapienza Università di Roma</p>
                       </div>
   </div>
     
@@ -168,6 +169,39 @@ background-size: cover;
 
 
 
+<style>
+/* 1. Set up the main container */
+.quarto-title-banner {
+    position: relative;
+    z-index: 1; /* Creates a stacking context for text */
+    /* Crucial: Remove the default image so we don't see a double */
+    background-image: none !important;
+    /* Optional: Sets the color behind the transparent part (e.g., white) */
+    background-color: transparent; 
+}
+
+/* 2. Create a separate layer *behind* the text for the image */
+.quarto-title-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Put this layer behind the text content */
+    z-index: -1;
+
+    /* Define your image here */
+    background-image: url("images/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    /* Apply the mask ONLY to this background layer */
+    /* Left = transparent, Right = opaque (black) */
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+            mask-image: linear-gradient(to right, transparent, black);
+}
+</style>
 <section id="about-me" class="level2">
 <h2 class="anchored" data-anchor-id="about-me">About Me</h2>
 <p>Welcome! I am a PhD student researching <strong>Artificial Intelligence</strong> and <strong>Climate Change</strong>.</p>

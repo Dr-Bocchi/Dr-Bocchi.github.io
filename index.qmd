@@ -1,8 +1,43 @@
 ---
-title: "Welcome to my Lab"
-subtitle: "PhD Candidate in [Your Field] at [Your University]"
-title-block-banner: "images/banner.jpg"
+title: "Dario Bocchi"
+subtitle: "PhD Student in Physics at Sapienza Università di Roma"
+title-block-banner: "images/banner.jpeg"
 ---
+
+<style>
+/* 1. Set up the main container */
+.quarto-title-banner {
+    position: relative;
+    z-index: 1; /* Creates a stacking context for text */
+    /* Crucial: Remove the default image so we don't see a double */
+    background-image: none !important;
+    /* Optional: Sets the color behind the transparent part (e.g., white) */
+    background-color: transparent; 
+}
+
+/* 2. Create a separate layer *behind* the text for the image */
+.quarto-title-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Put this layer behind the text content */
+    z-index: -1;
+
+    /* Define your image here */
+    background-image: url("images/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    /* Apply the mask ONLY to this background layer */
+    /* Left = transparent, Right = opaque (black) */
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+            mask-image: linear-gradient(to right, transparent, black);
+}
+</style>
+
 
 ## About Me
 

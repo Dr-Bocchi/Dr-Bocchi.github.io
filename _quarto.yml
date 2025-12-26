@@ -4,6 +4,7 @@ project:
 
 website:
   title: Dario Bocchi  # Will appear in the top left corner
+  favicon: images/perceptron.svg
   navbar:
     left:
       - href: index.qmd
