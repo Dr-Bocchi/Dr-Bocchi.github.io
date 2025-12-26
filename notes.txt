@@ -2,6 +2,6 @@ quarto render
 
 git add .
 
-git commit -m "Updated research section"
+git commit -m "Created first version of index.qmd"
 
 git push

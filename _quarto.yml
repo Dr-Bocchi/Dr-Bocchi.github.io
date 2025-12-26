@@ -9,15 +9,21 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
-      - href: cv.qmd
-        text: CV
+      - href: papers.qmd
+        text: Papers
+      - href: presentations.qmd
+        text: Presentations
     right:
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=LQc7rbIAAAAJ
+        aria-label: Google Scholar
       - icon: github
-        href: https://github.com/yourusername
-      - icon: twitter
-        href: https://twitter.com/yourusername
+        href: https://github.com/dr-bocchi
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dario-bocchi-025999218/
+        aria-label: LinkedIn
+
 
 format:
   html:

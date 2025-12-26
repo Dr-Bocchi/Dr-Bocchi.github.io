@@ -1,6 +1,6 @@
 ---
 title: "Dario Bocchi"
-subtitle: "PhD Student in Physics at Sapienza Università di Roma"
+subtitle: "PhD Student in Physics at Sapienza University of Rome"
 title-block-banner: "images/banner.jpeg"
 ---
 
@@ -32,23 +32,31 @@ title-block-banner: "images/banner.jpeg"
     background-position: center;
 
     /* Apply the mask ONLY to this background layer */
-    /* Left = transparent, Right = opaque (black) */
-    -webkit-mask-image: linear-gradient(to right, transparent, black);
-            mask-image: linear-gradient(to right, transparent, black);
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), black);
+            mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), black);
 }
 </style>
 
+![](photo.jpeg){width=200px style="float: left; margin-right:30px; margin-bottom: 5px; border-radius: 15px; margin-top:30px"}
 
 ## About Me
 
-Welcome! I am a PhD student researching **Artificial Intelligence** and **Climate Change**.
+Hello! I am a 3rd year PhD student in Physics at Sapienza University of Rome researching **Statistical Mechanics**, with a focus on **Artificial Intelligence**.
 
-Here you will find my:
+<div style="height: 10px;"></div>
 
-* [📄 Publications](research.qmd)
-* [💻 Code Projects](https://github.com)
-* [🎓 CV](cv.qmd)
+Here is my updated CV: [<i class="bi bi-file-earmark-pdf"></i> Download CV](bocchi_CV.pdf){.btn .btn-primary role="button" target="_blank" style="margin-left: 15px;"}
 
-### Recent News
-* **Dec 2025:** I will be presenting at NeurIPS!
-* **Nov 2025:** Passed my qualifying exam.
+<div style="height: 10px;"></div>
+
+## Layout of the website
+
+Here you will find a detailed list of my:
+
+* [📄 Pubblications and Preprints](papers.qmd)
+
+* [🎤 Talks and Presentations](presentations.qmd)
+
+
+## Recent News
+* **Dec 2025:** I will present a contributed talk at the 4th Workshop of the UMI Group “Mathematics for Artificial Intelligence and Machine Learning” in January 2026!

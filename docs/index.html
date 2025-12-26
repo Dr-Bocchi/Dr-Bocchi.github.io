@@ -103,22 +103,27 @@ background-size: cover;
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./papers.html"> 
+<span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./presentations.html"> 
+<span class="menu-text">Presentations</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/yourusername"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=LQc7rbIAAAAJ"> <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/yourusername"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://github.com/dr-bocchi"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/dario-bocchi-025999218/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -134,7 +139,7 @@ background-size: cover;
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Dario Bocchi</h1>
-            <p class="subtitle lead">PhD Student in Physics at Sapienza Università di Roma</p>
+            <p class="subtitle lead">PhD Student in Physics at Sapienza University of Rome</p>
                       </div>
   </div>
     
@@ -155,10 +160,9 @@ background-size: cover;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
-  <ul class="collapse">
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
+  <li><a href="#layout-of-the-website" id="toc-layout-of-the-website" class="nav-link" data-scroll-target="#layout-of-the-website">Layout of the website</a></li>
   <li><a href="#recent-news" id="toc-recent-news" class="nav-link" data-scroll-target="#recent-news">Recent News</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -197,29 +201,37 @@ background-size: cover;
     background-position: center;
 
     /* Apply the mask ONLY to this background layer */
-    /* Left = transparent, Right = opaque (black) */
-    -webkit-mask-image: linear-gradient(to right, transparent, black);
-            mask-image: linear-gradient(to right, transparent, black);
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), black);
+            mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), black);
 }
 </style>
+<p><img src="photo.jpeg" class="img-fluid" style="float: left; margin-right:30px; margin-bottom: 5px; border-radius: 15px; margin-top:30px" width="200"></p>
 <section id="about-me" class="level2">
 <h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>Welcome! I am a PhD student researching <strong>Artificial Intelligence</strong> and <strong>Climate Change</strong>.</p>
-<p>Here you will find my:</p>
-<ul>
-<li><a href="./research.html">📄 Publications</a></li>
-<li><a href="https://github.com">💻 Code Projects</a></li>
-<li><a href="./cv.html">🎓 CV</a></li>
-</ul>
-<section id="recent-news" class="level3">
-<h3 class="anchored" data-anchor-id="recent-news">Recent News</h3>
-<ul>
-<li><strong>Dec 2025:</strong> I will be presenting at NeurIPS!</li>
-<li><strong>Nov 2025:</strong> Passed my qualifying exam.</li>
-</ul>
+<p>Hello! I am a 3rd year PhD student in Physics at Sapienza University of Rome researching <strong>Statistical Mechanics</strong>, with a focus on <strong>Artificial Intelligence</strong>.</p>
+<div style="height: 10px;">
 
+</div>
+<p>Here is my updated CV: <a href="bocchi_CV.pdf" class="btn btn-primary" role="button" target="_blank" style="margin-left: 15px;"><i class="bi bi-file-earmark-pdf"></i> Download CV</a></p>
+<div style="height: 10px;">
 
+</div>
 </section>
+<section id="layout-of-the-website" class="level2">
+<h2 class="anchored" data-anchor-id="layout-of-the-website">Layout of the website</h2>
+<p>Here you will find a detailed list of my:</p>
+<ul>
+<li><p><a href="./papers.html">📄 Pubblications and Preprints</a></p></li>
+<li><p><a href="./presentations.html">🎤 Talks and Presentations</a></p></li>
+</ul>
+</section>
+<section id="recent-news" class="level2">
+<h2 class="anchored" data-anchor-id="recent-news">Recent News</h2>
+<ul>
+<li><strong>Dec 2025:</strong> I will present a contributed talk at the 4th Workshop of the UMI Group “Mathematics for Artificial Intelligence and Machine Learning” in January 2026!</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -256,7 +268,7 @@ background-size: cover;
     
     for (let i = 0; i < columns; i++) {
       for (let j = 0; j < rows; j++) {
-        grid[i][j] = Math.random() > 0.7 ? 1 : 0; 
+        grid[i][j] = Math.random() > 0.85 ? 1 : 0; 
       }
     }
   }

@@ -1,51 +1,51 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "About",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Talks and Presentations",
     "section": "",
     "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dario Bocchi",
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Publications and Preprints",
     "section": "",
-    "text": "Welcome! I am a PhD student researching Artificial Intelligence and Climate Change.\nHere you will find my:\n\n📄 Publications\n💻 Code Projects\n🎓 CV\n\n\n\n\nDec 2025: I will be presenting at NeurIPS!\nNov 2025: Passed my qualifying exam."
+    "text": "My First Paper, Journal of X, 2024."
+  },
+  {
+    "objectID": "papers.html#publications",
+    "href": "papers.html#publications",
+    "title": "Publications and Preprints",
+    "section": "",
+    "text": "My First Paper, Journal of X, 2024."
+  },
+  {
+    "objectID": "papers.html#methodology",
+    "href": "papers.html#methodology",
+    "title": "Publications and Preprints",
+    "section": "Methodology",
+    "text": "Methodology\nWe define the loss function \\(L(\\theta)\\) as follows:\n\\[\nL(\\theta) = \\sum_{i=1}^{N} (y_i - f(x_i; \\theta))^2 + \\lambda ||\\theta||^2\n\\]\nThis converges when \\(\\lambda \\to 0\\).\nAs discussed by D. E. Knuth (1984), literate programming is essential. However, others disagree (D. E. Knuth 1984; D. E22. Knuth 1984)."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Dario Bocchi",
-    "section": "",
-    "text": "Welcome! I am a PhD student researching Artificial Intelligence and Climate Change.\nHere you will find my:\n\n📄 Publications\n💻 Code Projects\n🎓 CV\n\n\n\n\nDec 2025: I will be presenting at NeurIPS!\nNov 2025: Passed my qualifying exam."
+    "section": "About Me",
+    "text": "About Me\nHello! I am a 3rd year PhD student in Physics at Sapienza University of Rome researching Statistical Mechanics, with a focus on Artificial Intelligence.\n\n\n\nHere is my updated CV:  Download CV"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My First Paper, Journal of X, 2024."
+    "objectID": "index.html#layout-of-the-website",
+    "href": "index.html#layout-of-the-website",
+    "title": "Dario Bocchi",
+    "section": "Layout of the website",
+    "text": "Layout of the website\nHere you will find a detailed list of my:\n\n📄 Pubblications and Preprints\n🎤 Talks and Presentations"
   },
   {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "",
-    "text": "My First Paper, Journal of X, 2024."
-  },
-  {
-    "objectID": "research.html#methodology",
-    "href": "research.html#methodology",
-    "title": "Research",
-    "section": "Methodology",
-    "text": "Methodology\nWe define the loss function \\(L(\\theta)\\) as follows:\n\\[\nL(\\theta) = \\sum_{i=1}^{N} (y_i - f(x_i; \\theta))^2 + \\lambda ||\\theta||^2\n\\]\nThis converges when \\(\\lambda \\to 0\\).\nAs discussed by D. E. Knuth (1984), literate programming is essential. However, others disagree (D. E. Knuth 1984; D. E22. Knuth 1984)."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Dario Bocchi",
+    "section": "Recent News",
+    "text": "Recent News\n\nDec 2025: I will present a contributed talk at the 4th Workshop of the UMI Group “Mathematics for Artificial Intelligence and Machine Learning” in January 2026!"
   }
 ]
